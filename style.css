@@ -17,6 +17,8 @@ header{
     background-color: rgb(7, 112, 29);
     border-bottom: 3px solid #9e9ea3;
 }
+main{
+	padding:0px;}
 .container{
     padding: 0% 7%;
 }
@@ -31,8 +33,7 @@ header{
 .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
     position: relative;
     width: 100%;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding:0;
 }
 .logo{
     text-align: center;
@@ -64,7 +65,8 @@ header{
 .slideshow-container {
     max-width: 100%;
     position: relative;
-    margin: auto;
+    margin: 0px;
+	padding:0px;
 }
 .mySlides {
     display: none;
